@@ -1,0 +1,24 @@
+.sidenav-container {
+  height: 100vh;
+  position: relative; /* Asegura que el contenedor tenga una posición relativa */
+}
+
+.button-container {
+  position: fixed; /* Mantiene el contenedor del botón fijo en la pantalla */
+  top: 16px; /* Ajusta la posición desde el borde superior */
+  left: 16px; /* Ajusta la posición desde el borde izquierdo */
+  z-index: 1000; /* Asegura que el botón esté sobre otros elementos */
+}
+
+.toggle-button {
+  background: none; /* Elimina el fondo del botón para que solo se vea la imagen */
+  border: none; /* Elimina el borde del botón */
+  padding: 0; /* Elimina el espaciado interno */
+  cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+}
+
+.toggle-button img {
+  width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+  display: block; /* Asegura que la imagen se muestre como un bloque */
+}

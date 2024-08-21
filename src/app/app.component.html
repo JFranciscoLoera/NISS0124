@@ -1,1 +1,15 @@
-<app-main-page></app-main-page>
+<shared-header></shared-header>
+
+<div class="row mt-4">
+  <div class="col-3">
+    <!-- Sidebar -->
+    <shared-side-bar></shared-side-bar>
+  </div>
+
+  <div class="col bg-blue">
+    <!-- Nuestras páginas -->
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<shared-footer></shared-footer>
